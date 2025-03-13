@@ -31,7 +31,7 @@ The goal of this project is to predict the AQI using machine learning techniques
 
 ## Dataset
 
-The dataset contains the following columns:
+The dataset(`air quality data.csv`) contains the following columns:
 - **Air Quality Parameters**:
   - `PM2.5`, `PM10`, `NO`, `NO2`, `NOx`, `NH3`, `CO`, `SO2`, `O3`, `Benzene`, `Toluene`, `Xylene`
 - **Other Features**:
@@ -82,11 +82,13 @@ The **Random Forest Regressor** achieved the best performance with the lowest RM
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/PrabjyotSingh2904/Air-Quality-Index-Prediction-Model-with-Python.git```
+   git clone https://github.com/PrabjyotSingh2904/Air-Quality-Index-Prediction-Model-with-Python.git
+   ```
 
 2. Install the required Python libraries
     ```bash
-     pip install numpy pandas matplotlib seaborn scikit-learn```
+     pip install numpy pandas matplotlib seaborn scikit-learn
+    ```
 
 3. Place the dataset(`air quality data.csv`) in the project directory
   
